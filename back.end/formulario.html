@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de Cadastro de User</h1>
+
+
+     <div>
+        <a href="../index.html">VOLTAR</a>
+    </div>
+
+
+    <p>oi</p>
+
+
+   
+
+
+    <form name="cad_user" action="bd/senhas.html" method="get">
+
+
+        <label for="nome1">Informe seu Nome: </label>
+        <input type="text" name="nome" id="nome" required> <br/>
+
+
+        <label for="nome">Informe sua Senha: </label>
+        <input type="password"  name="senha" id="senha" maxlength="8"> <br/>
+
+
+        <label for="email">Informe seu Email: </label>
+        <input type="email" name="email" id="email" placeholder="exemplo@suaempresa.com.br"> <br/>
+
+
+        <label for="data">Informe sua Data de Nascimento</label>
+        <input type="date" name="data" id="data"> <br/>
+
+
+    </br>
+
+
+        <label for="reuniao">Horario da reuniao do time</label> <br>
+        <input type="radio" name="reuniao" id="manha" value="manha"/>
+        <label for="manha">Manhã</label><br/>
+        <input type="radio" name="reuniao" id="tarde" value="tarde"/>
+        <label for="tarde">Tarde</label><br/>
+        <input type="radio" name="reuniao" id="noite" value="noite"/>
+        <label for="noite">Noite</label><br/>
+
+
+        <br>
+
+
+        <b>Tipo reunião</b> <br/>
+        <input type="checkbox" name="tipo" id="remoto" value="remoto"/>
+        <label for="remoto">Remoto</label><br/>
+        <input type="checkbox" name="tipo" id="presencial" value="remoto"/>
+        <label for="presencial">Presencial</label><br/>
+        <input type="checkbox" name="tipo" id="hibrida"/>
+        <label for="hibrida">Hibrida</label><br/>
+
+
+        <br/>
+
+
+        <b>Selecione seu estado</b> <br/>
+        <select name="estado" id="">
+            <option value="PE" selected>PERNAMBUCO</option>
+            <option value="BA">BAHIA</option>
+            <option value="PB">PARAIBA</option>
+            <option value="PA">PARANÁ</option>
+        </select>
+        <br/>
+
+
+        <br>/
+
+
+        <b>OBSERVAÇÃO</b> <br/>
+        <textarea rows="10" cols="30" maxlength="150">
+            O gato estava brincadon no jardim
+        </textarea> <br/>
+
+
+        <input type="reset" value="LIMPAR">
+
+
+        <br/>
+        <input type="submit" value="CADASTRAR"/> <br>
+
+
+    </form>
+   
+</body>
+</html>
