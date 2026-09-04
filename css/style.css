@@ -1,0 +1,27 @@
+/*Este CSS está sendo aplicado no arquivo index.html e coleda de dados*/
+
+h1 {color: rgb(247, 152, 29);
+    font-size: 20px;
+}
+
+p {color: rgb(236, 118, 27);
+    margin-left: 50px;
+}
+
+legend {color: rgba(245, 142, 39, 0.829);}
+
+body {
+     background-color: #eeec81;
+     background-image: url(/back.end/midia/images\ \(1\).jpg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: top center;
+     background-size: 50%;   
+    }
+
+a { color:#ec8115d3;
+    font-size: 15px;
+    margin-left: 1%;
+}
+
+
