@@ -1,0 +1,42 @@
+table {
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+th, td {
+    border: 2px solid #17994D;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #A1A839;
+}
+
+.tabela-apartamentos th:first-child {
+    background-color: #17994D;
+}
+
+.tabela-carros th {
+    background-color: #A1A839;
+}
+h1 {
+    text-transform: capitalize;
+}
+
+.virtuais {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.texto-regional {
+    text-transform: lowercase;
+}
+
+.tabela-apartamentos {
+    float: left;
+}
+
+.tabela-carros {
+    float: right;
+}
